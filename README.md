@@ -1,9 +1,17 @@
-### How To Use
+## How To Use
 
+#### Install Globally
 `npm i maxwell-weather-cli -g` 
 
-For instructions `outside --help`
+#### For Instructions 
+`outside --help`
 
-ex. `outside today --location Denver, CO`
+#### Example One
+`outside today --location Denver, CO`
 
-ex. 2 `outside forecast --location Denver, CO`
+![example one screenshot](https://i.imgur.com/IwasEVY.png)
+
+#### Example Two
+`outside forecast --location Denver, CO`
+
+![example two screenshot](https://i.imgur.com/6tBtmn2.png)
