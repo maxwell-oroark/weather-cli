@@ -1,7 +1,11 @@
 {
-  "name": "outside-cli",
+  "name": "maxwell-weather-cli",
   "version": "1.0.0",
-  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxwell-oroark/weather-cli"
+  },
+  "description": "node CLI for weather forecasts",
   "main": "index.js",
   "bin": {
     "outside": "bin/outside"
@@ -9,6 +13,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": ">=8"
+  },
+  "keywords": [
+    "weather",
+    "forecast",
+    "rain"
+  ],
+  "preferGlobal": true,
   "author": "",
   "license": "ISC",
   "dependencies": {
